@@ -15,8 +15,6 @@ public class BaseDados {
         numero11.setValue("1");
         DatabaseReference idSala11 = lugar11.child("idSala");
         idSala11.setValue("1");
-        DatabaseReference reservado11 = lugar11.child("reservado");
-        reservado11.setValue("nao");
 
         DatabaseReference lugar12 = lugares.child("lugar2");
         DatabaseReference numero12 = lugar12.child("idLugar");
@@ -36,72 +34,54 @@ public class BaseDados {
         numero14.setValue("4");
         DatabaseReference idSala14 = lugar14.child("idSala");
         idSala14.setValue("1");
-        DatabaseReference reservado14 = lugar14.child("reservado");
-        reservado14.setValue("nao");
 
         DatabaseReference lugar15 = lugares.child("lugar5");
         DatabaseReference numero15 = lugar15.child("idLugar");
         numero15.setValue("5");
         DatabaseReference idSala15 = lugar15.child("idSala");
         idSala15.setValue("1");
-        DatabaseReference reservado15 = lugar15.child("reservado");
-        reservado15.setValue("nao");
 
         DatabaseReference lugar16 = lugares.child("lugar6");
         DatabaseReference numero16 = lugar16.child("idLugar");
         numero16.setValue("6");
         DatabaseReference idSala16 = lugar16.child("idSala");
         idSala16.setValue("1");
-        DatabaseReference reservado16 = lugar16.child("reservado");
-        reservado16.setValue("nao");
 
         DatabaseReference lugar17 = lugares.child("lugar7");
         DatabaseReference numero17 = lugar17.child("idLugar");
         numero17.setValue("7");
         DatabaseReference idSala17 = lugar17.child("idSala");
         idSala17.setValue("1");
-        DatabaseReference reservado17 = lugar17.child("reservado");
-        reservado17.setValue("nao");
 
         DatabaseReference lugar18 = lugares.child("lugar8");
         DatabaseReference numero18 = lugar18.child("idLugar");
         numero18.setValue("8");
         DatabaseReference idSala18 = lugar18.child("idSala");
         idSala18.setValue("1");
-        DatabaseReference reservado18 = lugar18.child("reservado");
-        reservado18.setValue("nao");
 
         DatabaseReference lugar19 = lugares.child("lugar9");
         DatabaseReference numero19 = lugar19.child("idLugar");
         numero19.setValue("9");
         DatabaseReference idSala19 = lugar19.child("idSala");
         idSala19.setValue("1");
-        DatabaseReference reservado19 = lugar19.child("reservado");
-        reservado19.setValue("nao");
 
         DatabaseReference lugar110 = lugares.child("lugar10");
         DatabaseReference numero110 = lugar110.child("idLugar");
         numero110.setValue("10");
         DatabaseReference idSala110 = lugar110.child("idSala");
         idSala110.setValue("1");
-        DatabaseReference reservado110 = lugar110.child("reservado");
-        reservado110.setValue("nao");
 
         DatabaseReference lugar111 = lugares.child("lugar11");
         DatabaseReference numero111 = lugar111.child("idLugar");
         numero111.setValue("11");
         DatabaseReference idSala111 = lugar111.child("idSala");
         idSala111.setValue("1");
-        DatabaseReference reservado111 = lugar111.child("reservado");
-        reservado111.setValue("nao");
 
         DatabaseReference lugar112 = lugares.child("lugar12");
         DatabaseReference numero112 = lugar112.child("idLugar");
         numero112.setValue("12");
         DatabaseReference idSala112 = lugar112.child("idSala");
         idSala112.setValue("1");
-        DatabaseReference reservado112 = lugar112.child("reservado");
-        reservado112.setValue("nao");
         /**
         *
         */
@@ -121,7 +101,7 @@ public class BaseDados {
         lcn2.setValue("2");
         DatabaseReference lcid2 = lc2.child("idSala");
         lcid2.setValue("1");
-        DatabaseReference lccarac21 = lc2.child("idCaracteristica");
+        DatabaseReference lccarac21 = lc2.child("idCaracteristicaM");
         lccarac21.setValue("1");
 
         DatabaseReference lc3 = lugares_caracteristicas.child("lugar3");
