@@ -28,7 +28,6 @@ public class BaseDados {
         DatabaseReference idSala13 = lugar13.child("idSala");
         idSala13.setValue("1");
 
-
         DatabaseReference lugar14 = lugares.child("lugar4");
         DatabaseReference numero14 = lugar14.child("idLugar");
         numero14.setValue("4");
@@ -91,9 +90,9 @@ public class BaseDados {
         lcn1.setValue("1");
         DatabaseReference lcid1 = lc1.child("idSala");
         lcid1.setValue("1");
-        DatabaseReference lccarac11 = lc1.child("idCaracteristica");
+        DatabaseReference lccarac11 = lc1.child("idCaracteristicaM");
         lccarac11.setValue("1");
-        DatabaseReference lccarac12 = lc1.child("idCaracteristica");
+        DatabaseReference lccarac12 = lc1.child("idCaracteristicaJ");
         lccarac12.setValue("2");
 
         DatabaseReference lc2 = lugares_caracteristicas.child("lugar2");
@@ -103,27 +102,37 @@ public class BaseDados {
         lcid2.setValue("1");
         DatabaseReference lccarac21 = lc2.child("idCaracteristicaM");
         lccarac21.setValue("1");
+         DatabaseReference lccarac22 = lc2.child("idCaracteristicaJ");
+        lccarac22.setValue("0");
 
         DatabaseReference lc3 = lugares_caracteristicas.child("lugar3");
         DatabaseReference lcn3 = lc3.child("idLugar");
         lcn3.setValue("3");
-        DatabaseReference lcid3 = lc2.child("idSala");
+        DatabaseReference lcid3 = lc3.child("idSala");
         lcid3.setValue("1");
+        DatabaseReference lccarac31 = lc3.child("idCaracteristicaM");
+        lccarac31.setValue("0");
+        DatabaseReference lccarac32 = lc3.child("idCaracteristicaJ");
+        lccarac32.setValue("0");
 
         DatabaseReference lc4 = lugares_caracteristicas.child("lugar4");
         DatabaseReference lcn4 = lc4.child("idLugar");
         lcn4.setValue("4");
         DatabaseReference lcid4 = lc4.child("idSala");
         lcid4.setValue("1");
+        DatabaseReference lccarac41 = lc4.child("idCaracteristicaM");
+        lccarac41.setValue("0");
+        DatabaseReference lccarac41 = lc4.child("idCaracteristicaJ");
+        lccarac42.setValue("0");
 
         DatabaseReference lc5 = lugares_caracteristicas.child("lugar5");
         DatabaseReference lcn5 = lc5.child("idLugar");
         lcn5.setValue("5");
         DatabaseReference lcid5 = lc5.child("idSala");
         lcid5.setValue("1");
-        DatabaseReference lccarac51 = lc5.child("idCaracteristica");
+        DatabaseReference lccarac51 = lc5.child("idCaracteristicaM");
         lccarac51.setValue("1");
-        DatabaseReference lccarac52 = lc5.child("idCaracteristica");
+        DatabaseReference lccarac52 = lc5.child("idCaracteristicaJ");
         lccarac52.setValue("2");
 
         DatabaseReference lc6 = lugares_caracteristicas.child("lugar6");
@@ -131,59 +140,82 @@ public class BaseDados {
         lcn6.setValue("6");
         DatabaseReference lcid6 = lc6.child("idSala");
         lcid6.setValue("1");
-        DatabaseReference lccarac61 = lc6.child("idCaracteristica");
+        DatabaseReference lccarac61 = lc6.child("idCaracteristicaM");
         lccarac61.setValue("1");
+        DatabaseReference lccarac62 = lc6.child("idCaracteristicaJ");
+        lccarac62.setValue("2");
 
         DatabaseReference lc7 = lugares_caracteristicas.child("lugar7");
         DatabaseReference lcn7 = lc7.child("idLugar");
         lcn7.setValue("7");
         DatabaseReference lcid7 = lc7.child("idSala");
         lcid7.setValue("1");
+        DatabaseReference lccarac71 = lc7.child("idCaracteristicaM");
+        lccarac71.setValue("0");
+        DatabaseReference lccarac72 = lc7.child("idCaracteristicaJ");
+        lccarac72.setValue("0");
 
         DatabaseReference lc8 = lugares_caracteristicas.child("lugar8");
         DatabaseReference lcn8 = lc8.child("idLugar");
         lcn8.setValue("8");
         DatabaseReference lcid8 = lc8.child("idSala");
         lcid8.setValue("1");
-
+        DatabaseReference lccarac81 = lc8.child("idCaracteristicaM");
+        lccarac81.setValue("0");
+        DatabaseReference lccarac82 = lc8.child("idCaracteristicaJ");
+        lccarac82.setValue("0");
 
         DatabaseReference lc9 = lugares_caracteristicas.child("lugar9");
         DatabaseReference lcn9 = lc9.child("idLugar");
         lcn9.setValue("9");
         DatabaseReference lcid9 = lc9.child("idSala");
         lcid9.setValue("1");
-        DatabaseReference lccarac91 = lc9.child("idCaracteristica");
+        DatabaseReference lccarac91 = lc9.child("idCaracteristicaJ");
         lccarac91.setValue("2");
+        DatabaseReference lccarac92 = lc9.child("idCaracteristicaM");
+        lccarac92.setValue("0");
 
         DatabaseReference lc10 = lugares_caracteristicas.child("lugar10");
         DatabaseReference lcn10 = lc10.child("idLugar");
         lcn10.setValue("10");
         DatabaseReference lcid10 = lc10.child("idSala");
         lcid10.setValue("1");
+        DatabaseReference lccarac101 = lc10.child("idCaracteristicaM");
+        lccarac101.setValue("0");
+        DatabaseReference lccarac102 = lc10.child("idCaracteristicaJ");
+        lccarac102.setValue("0");
 
         DatabaseReference lc11 = lugares_caracteristicas.child("lugar11");
         DatabaseReference lcn11 = lc11.child("idLugar");
         lcn11.setValue("11");
         DatabaseReference lcid11 = lc11.child("idSala");
         lcid11.setValue("1");
+        DatabaseReference lccarac111 = lc11.child("idCaracteristicaM");
+        lccarac111.setValue("0");
+        DatabaseReference lccarac112 = lc11.child("idCaracteristicaJ");
+        lccarac112.setValue("0");
 
         DatabaseReference lc12 = lugares_caracteristicas.child("lugar12");
         DatabaseReference lcn12 = lc12.child("idLugar");
         lcn12.setValue("12");
         DatabaseReference lcid12 = lc12.child("idSala");
         lcid12.setValue("1");
+        DatabaseReference lccarac121 = lc12.child("idCaracteristicaM");
+        lccara121.setValue("0");
+        DatabaseReference lccarac122 = lc12.child("idCaracteristicaJ");
+        lccarac122.setValue("0");
 
         /**
          *
          */
         caracteristicas = db.getReference("caracteristicas");
         DatabaseReference carac1 = caracteristicas.child("caracteristica1");
-        DatabaseReference idc1 = carac1.child("id");
+        DatabaseReference idc1 = carac1.child("idCaracteristica");
         idc1.setValue("1");
         DatabaseReference descc1 = carac1.child("descricao");
         descc1.setValue("monitor");
         DatabaseReference carac2 = caracteristicas.child("caracteristica2");
-        DatabaseReference idc2 = carac2.child("id");
+        DatabaseReference idc2 = carac2.child("idCaracteristica");
         idc1.setValue("2");
         DatabaseReference descc2 = carac2.child("descricao");
         descc2.setValue("janela");
@@ -198,30 +230,6 @@ public class BaseDados {
         piso1.setValue("1");
         DatabaseReference desc1 = sala1.child("descricao");
         desc1.setValue("piso 1, sala 1");
-
-        DatabaseReference sala2 = salas.child("sala2");
-        DatabaseReference id2 = sala2.child("id");
-        id2.setValue("2");
-        DatabaseReference piso2 = sala2.child("piso");
-        piso2.setValue("1");
-        DatabaseReference desc2 = sala2.child("descricao");
-        desc2.setValue("piso 1, sala 2");
-
-        DatabaseReference sala3 = salas.child("sala3");
-        DatabaseReference id3 = sala3.child("id");
-        id3.setValue("3");
-        DatabaseReference piso3 = sala3.child("piso");
-        piso3.setValue("2");
-        DatabaseReference desc3 = sala3.child("descricao");
-        desc3.setValue("piso 2, sala 1");
-
-        DatabaseReference sala4 = salas.child("sala4");
-        DatabaseReference id4 = sala4.child("id");
-        id4.setValue("4");
-        DatabaseReference piso4 = sala4.child("piso");
-        piso4.setValue("2");
-        DatabaseReference desc4 = sala4.child("descricao");
-        desc4.setValue("piso 2, sala 2");
         /**
          *
          */
