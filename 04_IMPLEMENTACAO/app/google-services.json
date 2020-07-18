@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "495591312267",
+    "firebase_url": "https://spacemanager-300d5.firebaseio.com",
+    "project_id": "spacemanager-300d5",
+    "storage_bucket": "spacemanager-300d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495591312267:android:698007510b1108dd0ffd8e",
+        "android_client_info": {
+          "package_name": "com.example.spacemanager_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495591312267-ohpuf7chbefjbp2h4vohs9n0c0a7435v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spacemanager_app",
+            "certificate_hash": "72f117f9458e00708a8a14f2bdfbff5cee656bc4"
+          }
+        },
+        {
+          "client_id": "495591312267-utj02f26co0mrhsvm47voejunjvs4hki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbqjd4QeCeFIO0RZUba_TAwoSzyPMLjlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495591312267-utj02f26co0mrhsvm47voejunjvs4hki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

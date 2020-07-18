@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/fundo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".Horario">
+
+        <TextView
+            android:id="@+id/BPesquisa"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="270dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="342dp"
+            android:layout_height="287dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/BPesquisa"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@mipmap/sem_fundo3" />
+
+        <TextView
+            android:id="@+id/textData"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="230dp"
+            android:text="@string/data"
+            android:textSize="14pt" />
+
+        <TextView
+            android:id="@+id/TVlugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/horario"
+            android:textSize="14pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textHora"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="560dp"
+            android:text="@string/horas"
+            android:textSize="14pt" />
+
+        <Spinner
+            android:id="@+id/hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="590dp"
+            android:layout_marginLeft="10dp"
+            android:prompt="@string/horas" />
+
+        <Spinner
+            android:id="@+id/minuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="590dp"
+            android:layout_marginLeft="100dp"
+            android:prompt="@string/horas" />
+
+        <TextView
+            android:id="@+id/textDuracao"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="630dp"
+            android:text="@string/duracao"
+            android:textSize="14pt" />
+
+        <RadioGroup
+            android:id="@+id/duracao"
+            android:checkedButton="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="280dp"
+            android:layout_marginTop="670dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.0">
+
+                <RadioButton
+                    android:id="@+id/h1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:layout_weight="1"
+                    android:text="1h" />
+
+                <RadioButton
+                    android:id="@+id/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="10pt"
+                    android:text="2h" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/BEscolher"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/seguinte"
+            android:background="@color/botao"
+            android:textAllCaps="false"
+            android:textSize="9pt"
+            android:textColor="@color/fundo"
+            android:layout_marginTop="750dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="250dp"/>
+        <TextView
+            android:id="@+id/nada"
+            app:fontFamily="casual"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="750dp"
+            android:text="         "
+            android:textSize="16pt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

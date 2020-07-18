@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#565656</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="botao">#76323F</color>
+    <color name="botaodis">#E0B4BD</color>
+    <color name="fundo">#eae3e3</color>
+    <color name="mapa">#bababa</color>
+    <color name="selecionado">#665E5E</color>
+    <color name="reservado">#155EA7</color>
+    <color name="ocupado">#C50505</color>
+</resources>

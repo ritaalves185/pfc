@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fundo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reserva"
+    android:background="@color/fundo">
+
+    <TextView
+        android:id="@+id/BPesquisa"
+        android:layout_width="10dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="342dp"
+        android:layout_height="287dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/BPesquisa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/sem_fundo3" />
+
+    <TextView
+        android:id="@+id/titulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="@string/reserva"
+        android:textSize="14pt" />
+
+    <Button
+        android:id="@+id/BQualquer"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/botao"
+        android:textColor="@color/fundo"
+        android:text="@string/qualquer"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/BLugar"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/botao"
+        android:textColor="@color/fundo"
+        android:text="@string/umlugar"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textSize="10pt"
+        android:layout_marginTop="290dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/BPessoas"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/botao"
+        android:textColor="@color/fundo"
+        android:text="@string/reuniao"
+        android:textAllCaps="false"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BOpcao"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/botao"
+        android:textColor="@color/fundo"
+        android:text="@string/opcao"
+        android:textAllCaps="false"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BVoltar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar"
+        android:background="@color/botao"
+        android:textColor="@color/fundo"
+        android:textAllCaps="false"
+        android:textSize="9pt"
+        android:layout_marginTop="520dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
